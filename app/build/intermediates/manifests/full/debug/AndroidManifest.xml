@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jitu516.tournepal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.jitu516.tournepal.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.jitu516.tournepal.Weekend"
+            android:label="@string/title_activity_weekend" >
+            <intent-filter>
+                <action android:name="com.example.jitu516.tournepal.Weekend" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.jitu516.tournepal.Explore"
+            android:label="@string/title_activity_explore" >
+            <intent-filter>
+                <action android:name="com.example.jitu516.tournepal.Explore" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.jitu516.tournepal.Vacations"
+            android:label="@string/title_activity_vacations" >
+            <intent-filter>
+                <action android:name="com.example.jitu516.tournepal.Vacations" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.jitu516.tournepal.Tour"
+            android:label="@string/title_activity_tour" >
+            <intent-filter>
+                <action android:name="com.example.jitu516.tournepal.Tour" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

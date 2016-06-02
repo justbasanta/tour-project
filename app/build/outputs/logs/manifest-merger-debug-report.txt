@@ -1,0 +1,105 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:2:1-57:12
+	xmlns:android
+		ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from D:\TourNepal\app\src\main\AndroidManifest.xml
+		INJECTED from D:\TourNepal\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\TourNepal\app\src\main\AndroidManifest.xml
+		INJECTED from D:\TourNepal\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\TourNepal\app\src\main\AndroidManifest.xml
+		INJECTED from D:\TourNepal\app\src\main\AndroidManifest.xml
+application
+ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:5:5-55:23
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\TourNepal\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] D:\TourNepal\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:8:9-41
+	android:allowBackup
+		ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:9:9-40
+activity#com.example.jitu516.tournepal.MainActivity
+ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:10:9-18:20
+	android:label
+		ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:12:13-45
+	android:name
+		ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:11:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.example.jitu516.tournepal.Weekend
+ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:19:9-27:20
+	android:label
+		ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:21:13-59
+	android:name
+		ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:20:13-36
+intent-filter#android.intent.category.DEFAULT+com.example.jitu516.tournepal.Weekend
+ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:22:13-26:29
+action#com.example.jitu516.tournepal.Weekend
+ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:23:17-80
+	android:name
+		ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:23:25-77
+category#android.intent.category.DEFAULT
+ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:25:17-76
+	android:name
+		ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:25:27-73
+activity#com.example.jitu516.tournepal.Explore
+ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:28:9-36:20
+	android:label
+		ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:30:13-59
+	android:name
+		ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:29:13-36
+intent-filter#android.intent.category.DEFAULT+com.example.jitu516.tournepal.Explore
+ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:31:13-35:29
+action#com.example.jitu516.tournepal.Explore
+ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:32:25-77
+activity#com.example.jitu516.tournepal.Vacations
+ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:37:9-45:20
+	android:label
+		ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:39:13-61
+	android:name
+		ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:38:13-38
+intent-filter#android.intent.category.DEFAULT+com.example.jitu516.tournepal.Vacations
+ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:40:13-44:29
+action#com.example.jitu516.tournepal.Vacations
+ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:41:17-82
+	android:name
+		ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:41:25-79
+activity#com.example.jitu516.tournepal.Tour
+ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:46:9-54:20
+	android:label
+		ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:48:13-56
+	android:name
+		ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:47:13-33
+intent-filter#android.intent.category.DEFAULT+com.example.jitu516.tournepal.Tour
+ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:49:13-53:29
+action#com.example.jitu516.tournepal.Tour
+ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:50:17-77
+	android:name
+		ADDED from D:\TourNepal\app\src\main\AndroidManifest.xml:50:25-74
+uses-sdk
+INJECTED from D:\TourNepal\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.1.1] D:\TourNepal\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] D:\TourNepal\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from D:\TourNepal\app\src\main\AndroidManifest.xml
+		INJECTED from D:\TourNepal\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\TourNepal\app\src\main\AndroidManifest.xml
+		INJECTED from D:\TourNepal\app\src\main\AndroidManifest.xml
